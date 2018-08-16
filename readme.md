@@ -2,8 +2,8 @@
 
 Simple config for setting-up xdebug with docker & PhpStorm|Intellij IDEA
 
-[Images](https://hub.docker.com/r/sonrac/infomir-php)
-[Source for images](https://github.com/sonrac/infomir-fpm)
+* [Images](https://hub.docker.com/r/sonrac/infomir-php)
+* [Source for images](https://github.com/sonrac/infomir-fpm)
 
 # Setting up Xdebug for cli. PhpStorm & Intellij IDEA
 
