@@ -1,0 +1,18 @@
+version: "3.6"
+
+services:
+  php-fpm:
+    image: sonrac/infomir-php:php-fpm-7.2
+    environment:
+      XDEBUG_ENABLE: 1
+      XDEBUG_REMOTE_HOST: 10.110.11.84
+    volumes:
+      - ./site:/home/infomir/site
+  nginx:
+    image: sonrac/infomir-nginx
+    depends_on:
+      - php-fpm
+    ports:
+      - 34567:80
+    volumes:
+      - ./site:/home/infomir/site
