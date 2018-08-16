@@ -6,13 +6,20 @@ services:
     environment:
       XDEBUG_ENABLE: 1
       XDEBUG_REMOTE_HOST: 10.110.11.84
+      PROJECT_USER: user
+      PROJECT_GROUP: group
+    working_dir: /home/user/site
     volumes:
-      - ./site:/home/infomir/site
+      - ./site:/home/user/site
   nginx:
     image: sonrac/infomir-nginx
+    environment:
+      PROJECT_USER: user
+      PROJECT_GROUP: user
+    working_dir: /home/user/site
     depends_on:
       - php-fpm
     ports:
       - 34567:80
     volumes:
-      - ./site:/home/infomir/site
+      - ./site:/home/user/site
