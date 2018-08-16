@@ -2,7 +2,7 @@ version: "3.6"
 
 services:
   php-fpm:
-    image: sonrac/infomir-php:php-fpm-7.2
+    image: sonrac/infomir-php:php-fpm-5.5.9
     environment:
       XDEBUG_ENABLE: 1
       XDEBUG_REMOTE_HOST: 10.110.11.84
