@@ -43,5 +43,5 @@ Result:
 
 ## Links
 
-[See off documentation for more details](https://www.jetbrains.com/help/phpstorm/configuring-xdebug.html)
-[See off documentation for more details for docker](https://confluence.jetbrains.com/display/PhpStorm/Docker+Support+in+PhpStorm#DockerSupportinPhpStorm-DebuggingthePHPwebapplicationrunningintheDockercontainer)
+* [See off documentation for more details](https://www.jetbrains.com/help/phpstorm/configuring-xdebug.html)
+* [See off documentation for more details for docker](https://confluence.jetbrains.com/display/PhpStorm/Docker+Support+in+PhpStorm#DockerSupportinPhpStorm-DebuggingthePHPwebapplicationrunningintheDockercontainer)
